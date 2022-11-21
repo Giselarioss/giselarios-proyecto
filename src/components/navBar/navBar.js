@@ -5,10 +5,10 @@ function Navbar () {
     return(
         <nav>
             <h1>logo</h1>
-            <button className="botones-nav">Boton 1</button>
-            <button className="botones-nav">Boton 2</button>
-            <button className="botones-nav">Boton 3</button>
-            <button className="botones-nav">Boton 4</button>
+            <button className="botones-nav">Quienes somos</button>
+            <button className="botones-nav">Productos</button>
+            <button className="botones-nav">Contacto</button>
+            <button className="botones-nav">Preguntas frecuentes</button>
         </nav>
     )
 }
