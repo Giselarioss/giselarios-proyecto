@@ -1,11 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Navbar from './components/navBar/navBar';
+import Navbar from './components/Navbar/Navbar'
+import ItenListContainer from './components/ItemListContainer/ItemListContainer';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <header>
+        <img src={'./imagenes/logo.jpeg'} alt='logo empresa' />'
+        <Navbar />
+        <ItenListContainer greeting='Bievenido a Life Freedom' />
+      </header>
+      
+
+      
     </div>
   );
 }

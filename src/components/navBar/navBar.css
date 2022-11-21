@@ -1,9 +1,8 @@
-.botones-nav{
+.botones{
     padding: 2px 20px;
-    margin: 10px;
+    margin-left: 20px;
     font-size: 1.2rem;
-    border: none;
-    color: rgb(20, 20, 20);
+    border: none;    
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;
