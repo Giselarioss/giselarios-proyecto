@@ -22,7 +22,7 @@ function Navbar (props) {
     return(        
             <nav>     
                 <section>
-                    <Button className='botones' colorText='grey' text='Nosotros' handleOnClick={handleOnClick} />
+                    <Button colorText='grey' text='Nosotros' handleOnClick={handleOnClick} />
                     <Button colorText='grey' text='Productos' handleOnClick={handleOnClick2} />
                     <Button colorText='grey' text='Contacto' handleOnClick={handleOnClick3} />
                     <Button colorText='grey' text='Preguntas Frecuentes' handleOnClick={handleOnClick4} />
