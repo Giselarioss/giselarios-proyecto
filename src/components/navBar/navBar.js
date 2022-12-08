@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {    
     return(        
             <nav>
-                <img src='./public/imagenes/logo.jpeg' alt='Logo empresa'  />
+                <img src='./imagenes/logo.jpeg' alt='Logo empresa'/>
                 <section>
                     <Link>Nosotros</Link>
                     <Link to='/'>Productos</Link>

@@ -3,14 +3,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import  ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import  ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import Navbar from './components/Navbar/Navbar';
-import CartWidget from './components/CartWidget/CartWidget';
+
 
 function App() { 
 
   return (
     <div className="App">
-      <BrowserRouter>
-      <Navbar/>      
+      
+      <BrowserRouter> 
+      <Navbar/>               
         <Routes>
           <Route path='/' element={<ItemListContainer/>} />
           <Route path='/category/:categoryId' element={<ItemListContainer/>} />
